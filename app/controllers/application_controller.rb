@@ -6,4 +6,11 @@ class ApplicationController < ActionController::Base
 		render html: "hello"
 	end
 
+
+	def index
+	end
+
+
+
+
 end

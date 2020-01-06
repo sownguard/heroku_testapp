@@ -43,6 +43,7 @@ group :development, :test do
   gem 'web-console'
   gem 'sqlite3'
   gem 'spring'
+  gem 'cowsay'
 
 end
 
