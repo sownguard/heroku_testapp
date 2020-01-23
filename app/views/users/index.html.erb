@@ -1,4 +1,5 @@
 <p id="notice"><%= notice %></p>
+<% provide(:title, "Users")  %>
 
 <h1>Users</h1>
 
@@ -26,4 +27,10 @@
 
 <br>
 
+
+<p>
 <%= link_to 'New User', new_user_path %>
+</p>
+<p>
+<%= link_to 'Back', root_url %>
+</p>

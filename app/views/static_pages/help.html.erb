@@ -1,6 +1,22 @@
-<h1>StaticPages#help</h1>
-<p>
-	To get help with this resource, contact 
-	<a href="https://www.vk.com/waqawaqa"><em>Author</em>
-</p>
+<% provide(:title, "Help")  %>
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title><%= yield(:title) %> | RoR tutorial project</title>
+	</head>
+	<body>
+		<h1><%= yield(:title) %> </h1>
+
+		<p>
+			To get help with this resource, contact 
+			<a href="https://www.vk.com/waqawaqa"><em>Author</em>
+		</p>
+
+	</body>
+</html>
+
+<%= link_to 'Back', static_pages_url%>
 

@@ -13,6 +13,8 @@ gem 'turbolinks'
 gem 'jbuilder'
 gem 'sdoc'
 gem 'tzinfo-data'
+#gem 'pg'
+gem 'taps'
 # Use sqlite3 as the database for Active Record
 
 # Use Puma as the app server
@@ -40,8 +42,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   #gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'byebug'
-  gem 'web-console'
-  gem 'sqlite3'
+  #gem 'sqlite3'
   gem 'spring'
   gem 'cowsay'
 
@@ -55,7 +56,7 @@ end
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
-  #gem 'web-console', '>= 3.3.0'
+  gem 'web-console'
 end
 
 
